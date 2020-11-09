@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Ejercicios de porcentajes</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script defer type="module" src="js/script.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <h1>Ejercicios de porcentajes</h1>
+        </header>
+        <main class="main">
+            <form id="empezar-ejercicios-form" class="empezar-ejercicios-form">
+                <button class="btn" type="submit">Empezar ejercicios</button>
+            </form>
+            <div id="ejercicios" class="ejercicios oculto">
+                <div class="ejercicios__correcto oculto">¡Correcto!</div>
+                <div class="ejercicios__incorrecto oculto">Incorrecto, ¡vuélvelo a intentar!</div>
+                <form id="siguiente-ejercicio-form" class="siguiente-ejercicio-form oculto">
+                    <button class="btn" type="submit">Siguiente</button>
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            <div id="aciertos" class="aciertos">
+                <span class="aciertos__label">Aciertos:</span>
+                <span class="aciertos__num">0</span>
+            </div>
+            <div id="fallos" class="fallos">
+                <span class="fallos__label">Fallos:</span>
+                <span class="fallos__num">0</span>
+            </div>
+        </footer>
+    </body>
+</html>
