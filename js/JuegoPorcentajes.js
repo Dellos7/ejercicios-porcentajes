@@ -30,7 +30,7 @@ export class JuegoPorcentajes{
         ejercicioEl.classList.add('ejercicio');
         let descrip;
         if( ejercicio.tipoEjercicio === TipoEjercicio.AFORO.val ){
-            descrip = `Si a un local que tiene un aforo de ${ejercicio.numero} personas se le aplica una restricción de un aforo máximo del ${ejercicio.tantoPorCiento}%, ¿cuántas personas cabrían en el local?`;
+            descrip = `Si a un local que tiene un aforo de ${ejercicio.numero} personas se le aplica una restricción de un aforo máximo del ${ejercicio.tantoPorCiento}%, ¿cuántas personas cabrían en el local como máximo?`;
         } else if( ejercicio.tipoEjercicio === TipoEjercicio.PRECIO.val ){
             descrip = `Si un objeto que vale ${ejercicio.numero}€ lo encontramos rebajado al ${ejercicio.tantoPorCiento}%, ¿cuál es el precio de ese objeto rebajado?`;
         }
